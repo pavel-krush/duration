@@ -276,7 +276,7 @@ class Duration {
         }
 
         if ($this->lessThanHalf(new Duration($r), $m)) {
-            return new Duration($this->value - $m->value);
+            return new Duration($this->value - $r);
         }
 
         $d1 = $this->value + $m->value - $r;
