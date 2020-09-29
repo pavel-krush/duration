@@ -1,0 +1,18 @@
+{
+    "name": "pavel-krush/duration",
+    "description": "PHP implementation of GoLang time.Duration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Krush",
+            "email": "pavel.krush@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PavelKrush\\": "./src"
+        }
+    }
+}
